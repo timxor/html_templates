@@ -1,0 +1,78 @@
+/* // css3-animation.css */
+
+/* basic  */
+body {
+  width: 150px;
+  -webkit-transition-property: height;
+  -moz-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+
+
+
+/* 3. timing functions
+    Transition property
+ */
+
+
+
+  /* new function:
+      ease-in, ease-out,
+      ease-in-out, cubic-bezier,
+      linear
+   */
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+
+  /*
+    ease
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+  */
+
+  /*
+    ease-in
+    -webkit-transition-timing-function: ease-in;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+  */
+
+
+  /*
+    ease-out
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  */
+
+  /*
+    ease-in-out
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  */
+
+  /*
+    cubic-bezier
+    -webkit-transition-timing-function: cubic-bezier;
+    -moz-transition-timing-function: cubic-bezier;
+    -o-transition-timing-function: cubic-bezier;
+    transition-timing-function: cubic-bezier;
+  */
+
+}
+
+.top-nav li:hover {
+  height: 500px;
+}
